@@ -1,0 +1,212 @@
+body{
+	background-image: url(../images/background.jpg);
+	background-size: 100%;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color: gray;
+}
+a:active{
+	color: gray;
+}
+a:visited{
+	color: black;
+}
+#head1{
+	background-image: url(../images/banner_background.jpg);
+	height: 250px;
+}
+.nav_list{
+	width:450px;
+	position: absolute;
+	left: 470px;
+}
+.nav_list ul li{
+	display: block;
+	float: left;
+	
+}
+.nav_list li a{
+	height: 40px;
+	color: black;
+	text-decoration: none;
+	font-weight: 400;
+}
+.nav_list li a:hover{
+	color: gray;
+}
+.nav_list li a:active{
+	color: gray;
+}
+.nav_list li a:visited{
+	color: gray;
+}
+.nav_logon{
+	position: absolute;
+	top:17px;
+	right: 25px;
+}
+.nav_logon a{
+	color: black;
+	text-decoration: none;
+}
+.nav_logon a:hover{
+	color: gray;
+}
+.nav_logon a:active{
+	color: gray;
+}
+.nav_logon a:visited{
+	color: gray;
+}
+.logo{
+	position: absolute;
+	top: 100px;
+	left: 450px;
+	font-size: 30px;
+}
+.logo img{
+	position: relative;
+	top: 7px;
+}
+.sousuo{
+	display: inline;
+}
+#head2 a{
+	text-decoration: none;
+	color: black;
+}
+#head2 a:hover{
+	color:gray;
+}
+#head2 a:active{
+	color:gray;
+}
+#head2 a:visited{
+	color:gray;
+}
+.left{
+	width:550px;
+	float: left;
+	margin: 0 0 0 20px;
+}
+#content{
+	height: 1000px;
+}
+.left_remen{
+	font-size: 18px;
+	font-weight: 800;
+	margin: 10px 10px 10px 0;
+}
+.toutiao{
+	position: relative;
+	left: 150px;
+	bottom:15px;
+	font-size: 18px;
+	font-weight: 800;
+}
+.left_tittle{
+	width: 700px;
+	overflow: hidden;
+	margin: 10px 10px 10px 0;
+}
+.left_tittle a{
+	font-size: 18px;
+	font-weight: 800;
+}
+.left_content_img{
+	float: left;
+}
+.left_content_text{
+	font-size: 15px;
+	float: left;
+	width: 350px;
+	margin: 10px;
+}
+.right1{
+	float: left;
+	margin: 0 0 0 15px;
+}
+.right1_reyou{
+	font-size: 18px;
+	font-weight: 800;
+	margin: 10px 10px 10px 40px;
+}
+.reyou{
+	list-style-type: none;
+}
+.reyou1{
+	float: left;
+	margin: 0 15px 0 0;
+	padding: 0 0 0 2px;
+	height: 32px;
+	width: 32px;
+	text-align: center;
+}
+.reyou2{
+	float: left;
+	width: 200px;
+	height: 32px;
+}
+.reyou3{
+	float: left;
+	height: 32px;
+	text-align: center;
+}
+.right2{
+	float: left;
+	margin: 0 0 0 15px;
+	width: 730px;
+}
+.right2_pingce{
+	font-size: 18px;
+	font-weight: 800;
+	margin: 10px 10px 10px 40px;	
+}
+.picture1{
+	float: left;
+}
+.picture1_text{
+	display: block;
+	text-align: center;
+	position: relative;
+}
+.right2_text{
+	float: left;
+}
+.right2_text ul{
+	list-style-type: none;
+	width: 300px;
+	padding: 0;/*!!!*/
+}
+.right2_text li{
+	margin: 10px;
+}
+#footer ul{
+	text-align: center;
+}
+#footer li{
+	display: inline;
+}
+#footer p{
+	text-align: center;
+	color: gray;
+}
+#nav_ul li ul{
+	width: 80px;
+	height: 100px;
+	position: relative;
+	right: 40px;
+}
+
+#nav_ul li ul{
+	display: none;
+}
+
+#nav_ul li.subMenuShow ul{
+	display: block;
+
+}

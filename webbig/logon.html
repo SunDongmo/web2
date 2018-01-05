@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>墨</title>
+	<link rel="stylesheet" type="text/css" href="css/logon.css">
+	<script>
+		window.onload = function() {
+			var username = document.getElementById("name");	
+			username.onblur = checkUsername;
+			var password = document.getElementById("password");	
+			password.onblur = checkpassword;
+		} 
+
+ 
+		function checkUsername() { 
+			var username = document.getElementById("name");
+			if (username.value.length == 0)
+			{		
+				username.parentNode.innerHTML = username.parentNode.innerHTML+"<span style='color:red'>用户名必须输入</span>";
+			}
+		}
+		
+
+		function checkpassword() { 
+			var password = document.getElementById("password");
+			if (password.value.length == 0)
+			{		
+				password.parentNode.innerHTML = password.parentNode.innerHTML+"<span style='color:red'>密码必须输入</span>";
+			}
+		}
+	</script>
+</head>
+<body>
+	<div class="tip">Welcome To Game's World!</div>
+	<form action="" method="">
+		用户名：<input type="text" name="name" id="name">
+		密码：<input type="password" name="password" id="password">
+		<input type="submit" value="登录">
+	</form>
+</body>
+</html>
